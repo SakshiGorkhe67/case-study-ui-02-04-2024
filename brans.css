@@ -1,0 +1,53 @@
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+  }
+  
+  .brand-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .brand-list li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .brand-list li img {
+    max-width: 100px; /* Adjust image size as needed */
+  }
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%; /* Adjust the width as needed */
+}
+
+.brand-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* Display items in a row */
+}
+
+.brand-list li {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.brand-list li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.brand-list li img {
+  max-width: 180px; /* Adjust image size as needed */
+}
+  /*home page  banner button */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    left: 40%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure the button appears on top of the image */
+  }
+  
